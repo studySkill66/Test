@@ -14,6 +14,15 @@ public class MarketDepthVo implements Serializable {
     private Long mrid;
     private Long ts;
     private Long version;
+    private String type;
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 
     public String getSymbol() {
         return symbol;

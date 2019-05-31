@@ -45,6 +45,55 @@ public class KLineDetailVo implements Serializable {
      */
     private BigDecimal vol;
 
+    private Long min;
+
+    private Integer step;
+
+    private String symbol;
+    private Byte isInterest;
+
+    private Integer payCoinId;
+
+    public Byte getIsInterest() {
+        return isInterest;
+    }
+
+    public void setIsInterest(Byte isInterest) {
+        this.isInterest = isInterest;
+    }
+
+    public Integer getPayCoinId() {
+        return payCoinId;
+    }
+
+    public void setPayCoinId(Integer payCoinId) {
+        this.payCoinId = payCoinId;
+    }
+
+    public String getSymbol() {
+        return symbol;
+    }
+
+    public void setSymbol(String symbol) {
+        this.symbol = symbol;
+    }
+
+    public Integer getStep() {
+        return step;
+    }
+
+    public void setStep(Integer step) {
+        this.step = step;
+    }
+
+    public Long getMin() {
+        return min;
+    }
+
+    public void setMin(Long min) {
+        this.min = min;
+    }
+
     public Long getId() {
         return id;
     }

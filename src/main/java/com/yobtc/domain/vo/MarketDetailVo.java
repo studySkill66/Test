@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 public class MarketDetailVo implements Serializable {
 
-    private static final long serialVersionUID = -721228687184331557L;
+    private static final long serialVersionUID = -621228687184331557L;
 
     private String symbol;
 
@@ -26,6 +26,107 @@ public class MarketDetailVo implements Serializable {
     private String vol;
 
     private long ts;
+
+    private String  range24;
+
+    private String defaultenname;
+
+    private String defaultcnname;
+
+    private String defaultpayenname;
+
+    private Byte type;
+
+    private String logo;
+
+    private Byte isInterest;
+
+    private Integer userId;
+
+    private Integer payCoinId;
+
+    private Integer coinId;
+
+
+    public String getDefaultpayenname() {
+        return defaultpayenname;
+    }
+
+    public void setDefaultpayenname(String defaultpayenname) {
+        this.defaultpayenname = defaultpayenname;
+    }
+
+    public Integer getCoinId() {
+        return coinId;
+    }
+
+    public void setCoinId(Integer coinId) {
+        this.coinId = coinId;
+    }
+
+    public Integer getPayCoinId() {
+        return payCoinId;
+    }
+
+    public void setPayCoinId(Integer payCoinId) {
+        this.payCoinId = payCoinId;
+    }
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
+    public Byte getIsInterest() {
+        return isInterest;
+    }
+
+    public void setIsInterest(Byte isInterest) {
+        this.isInterest = isInterest;
+    }
+
+    public String getDefaultenname() {
+        return defaultenname;
+    }
+
+    public void setDefaultenname(String defaultenname) {
+        this.defaultenname = defaultenname;
+    }
+
+    public String getDefaultcnname() {
+        return defaultcnname;
+    }
+
+    public void setDefaultcnname(String defaultcnname) {
+        this.defaultcnname = defaultcnname;
+    }
+
+    public Byte getType() {
+        return type;
+    }
+
+    public void setType(Byte type) {
+        this.type = type;
+    }
+
+    public String getLogo() {
+        return logo;
+    }
+
+    public void setLogo(String logo) {
+        this.logo = logo;
+    }
+
+    public String getRange24() {
+        return range24;
+    }
+
+    public void setRange24(String range24) {
+        this.range24 = range24;
+    }
 
     public Integer getCount() {
         return count;
