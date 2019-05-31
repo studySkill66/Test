@@ -1,0 +1,14 @@
+//websockert测试工具网址
+http://www.bejson.com/httputil/websocket/
+//websocket连接
+ws://127.0.0.1:6099/market
+前端订阅的格式,发送消息订阅就行了
+{
+"sub": "market.neo_usdt.entrust.10.-1.0,1,2,7",
+"id": "id1"
+}
+前端订阅的格式
+{
+"sub": "market.neo_usdt.userwallet.10",
+"id": "id1"
+}
