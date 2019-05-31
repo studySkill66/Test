@@ -8,3 +8,5 @@ websocket���߲���:http://www.blue-zero.com/WebSocket/
 }
 GZIP压缩:https://www.cnblogs.com/searcherY/p/6723615.html
 上传到git步骤:https://blog.csdn.net/Lucky_LXG/article/details/77849212
+
+事务学习demo:https://github.com/seata/seata/wiki/Home_Chinese
