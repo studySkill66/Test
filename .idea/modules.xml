@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/public_engineering/hksy-framework-new.iml" filepath="$PROJECT_DIR$/public_engineering/hksy-framework-new.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket.iml" filepath="$PROJECT_DIR$/websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket_demo/yobtc-websocket-service-new.iml" filepath="$PROJECT_DIR$/websocket_demo/yobtc-websocket-service-new.iml" />
     </modules>
   </component>
 </project>

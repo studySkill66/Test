@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hksy-framework-new" />
         <module name="websocket" />
+        <module name="yobtc-websocket-service-new" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hksy-framework-new" target="1.8" />
       <module name="websocket" target="1.5" />
+      <module name="yobtc-websocket-service-new" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
